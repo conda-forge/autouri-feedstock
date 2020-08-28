@@ -1,5 +1,5 @@
 {% set name = "autouri" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: db3533f04729f08e73a90fcaf27bd53b932cbcdff93b461d7cca505448ff4cd3
+  sha256: eb1ac4cb1405b52da443265f48aa1d1b05c86de001652243f037130409acc1d6
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Recursive localization for various types of URIs'
+  summary: Recursive localization for various types of URIs
   description: |
     It is a Python API for recursively localizing file URIs
     (e.g. gs://. s3://, http:// and local path) on any target directory URI.
