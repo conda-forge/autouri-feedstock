@@ -5,7 +5,7 @@ Home: https://github.com/ENCODE-DCC/autouri
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Recursive localization for various types of URIs
 
