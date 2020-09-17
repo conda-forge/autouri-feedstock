@@ -1,5 +1,5 @@
 {% set name = "autouri" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb1ac4cb1405b52da443265f48aa1d1b05c86de001652243f037130409acc1d6
+  sha256: 99832230b4bd7e9618aee999122f37703b3af62da58c8ddcf20dae35499f0c45
 
 build:
   noarch: python
