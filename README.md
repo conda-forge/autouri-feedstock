@@ -5,9 +5,11 @@ Home: https://github.com/ENCODE-DCC/autouri
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autouri-feedstock/blob/master/LICENSE.txt)
 
 Summary: Recursive localization for various types of URIs
+
+Development: https://github.com/ENCODE-DCC/autouri
 
 It is a Python API for recursively localizing file URIs
 (e.g. gs://. s3://, http:// and local path) on any target directory URI.
